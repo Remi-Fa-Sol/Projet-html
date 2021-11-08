@@ -4,97 +4,90 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./CSS/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/CSS/styleindex.css" />
     <script
       src="https://kit.fontawesome.com/23302fb43c.js"
       crossorigin="anonymous"
     ></script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" media="only screen and (max-width: 500px)" href="./CSS/style_mobile.css">
 
-    <title>Café Français | Accueil</title>
+    <title>Index</title>
   </head>
   <body>
     <header class="header">
-      <nav>
         <h1>
-          <a href="./index.html" class="liendecoration">CAFE FRANCAIS</a>
+          <p>Index</p>
         </h1>
         <ul>
           <li>
-            <a href="./index.html" class="active liendecoration">Accueil</a>
+            <a href="#site" class="underline lien liendecoration">Sites</a>
           </li>
           <li>
-            <a href="./where.html" class="liendecoration">Nous Trouver</a>
+            <a href="#presentation" class="underline lien liendecoration">Présenation</a>
           </li>
           <li>
-            <a href="./contact.html" class="liendecoration">Nous Contacter</a>
+            <a href="#trouver" class="underline lien liendecoration">Me Trouver</a>
           </li>
         </ul>
-      </nav>
+    
+    
     </header>
-    <section class="vp">
-      <div class="vp-content">
-        <h1>Toute l'expertise française dans un café</h1>
-        <div class="separator"></div>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi
-          laboriosam molestias quisquam harum necessitatibus cum officia eum
-          accusamus inventore asperiores, in itaque doloribus tenetur
-          consequuntur repellendus quos aliquam. Quibusdam, quisquam.
-        </p>
-        <a
-          href="./where.html"
-          class="btntest btntest-primary my-10 liendecoration"
-          >DECOUVRIR</a
-        >
-      </div>
+
+    <section class="vp" id="site">
+      <ul>
+        <li class="sites">
+          <a href="./maincafe.html" class="btntest btntest-primary liendecoration"
+            ><i class="fas fa-coffee fa-1x my-10"></i> Site Café</a
+          >
+        </li>
+        <li class="sites">
+          <a href="#" class="btntest btntest-primary liendecoration">
+            <i class="far fa-clock fa-1x my-10"></i> SOON
+          </a>
+        </li>
+        <li class="sites">
+          <a href="#" class="btntest btntest-primary liendecoration">
+            <i class="far fa-clock fa-1x my-10"></i> SOON
+          </a>
+        </li>
+      </ul>
     </section>
-    <section class="features">
+
+    <section class="features" id="presentation">
       <div class="container">
-        <div class="feature">
-          <i class="fas fa-coffee fa-3x my-10"></i>
-          <h2>Un nouveau café par jour</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque autem
-            modi minima exercitationem in quasi veritatis minus fugit qui eum.
+        <div class="information">
+          <p class="info" id="">
+            Presentation:
+          </p>
+          <p class="info2">Bonjour, je me nomme Rémi. Je suis un étudiant en alternance dans la branche Systèmes Numérique. Je suis un grand fan de programmation de puis vraiment jeune et de puis peu j'ai décidé de me lancer et je me suis dit; quoi de plus fun que d'apprendre en le partageant ! Cela fait déjà pas mal de temps que je m'exerce dans les diffèrent langage de programmation, mais celas ne fais vraiment pas beaucoup de temps que je le concrétise réellement. C'est pour cela que je vous prie d'être indulgent en vers mon travail, je débute et donc je n'ai pas forcément les habitudes nécessaires, je ne refuse aucunement l'aide d'autrui tant qu'elle est bien construite :)
+
           </p>
         </div>
-        <div class="feature">
-          <i class="far fa-clock fa-3x my-10"></i>
-          <h2>Ouvert tous les jours de 5h à 22h</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque autem
-            modi minima exercitationem in quasi veritatis minus fugit qui eum.
-          </p>
         </div>
       </div>
+      <section class="contact" id="trouver">
+        <div class="colorcontact">
+          <div class="contacter">
+            <ul>
+              <li> <a class=" liendecoration " href=""><i class="fab fa-github"></i></a> </li>
+              <li> <a class=" liendecoration " href=""> <i class="fab fa-discord"></i> </a> </li>
+              <li> <a class=" liendecoration " href=""><i class="fab fa-tiktok"></i></a> </li>
+            </ul>
+          </div>
+          <div class="credit">
+            <p>
+              Creat By <a href="" class="liendecoration-footer">Rémi</a> | Copyright
+              &#9400; | 2021
+            </p>
+          </div>
+
+      </section> 
     </section>
-    <div class="person"></div>
-    <section class="reservation">
-      <div class="container">
-        <h2>Reservez des maintenant</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem
-          mollitia aliquid saepe illum laborum a quos quidem quam blanditiis
-          culpa!
-        </p>
-        <a
-          href="/contact.html"
-          class="btntest btntest-dark my-20 liendecoration"
-          >Reservez</a
-        >
-      </div>
-    </section>
-    <footer class="copyright">
-      <p>
-        Creat By <a href="" class="liendecoration-footer">Rémi</a> | Copyright
-        &#9400; | 2021
-      </p>
-    </footer>
   </body>
 </html>
