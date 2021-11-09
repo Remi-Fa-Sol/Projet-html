@@ -140,7 +140,7 @@ body {
 /* Information */
 
 .features {
-  height: 90vh;
+  height: 100%;
   background: #222 center center/cover;
 }
 
@@ -166,7 +166,7 @@ body {
   height: 11vh;
 }
 
-.credit p{
+.credit p {
   font-weight: 300;
   color: grey;
   font-size: 20px;
